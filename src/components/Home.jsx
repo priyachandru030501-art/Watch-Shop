@@ -173,7 +173,7 @@ function Home() {
             <div>
               <h4>Contact</h4>
               <p>📧 info@timeora.com</p>
-              <p>📞 +91 98765 43210</p>
+              <p>📞 +91 00000 00000</p>
             </div>
 
           </div>
