@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+.submit-page {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+
+.submit-page .navbar {
+  padding: 16px 0;
+}
+
+.submit-page .navbar-brand {
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.submit-page .nav-link {
+  margin-left: 18px;
+}
+
+/* Hero */
+
+.submit-hero {
+  min-height: 430px;
+  background: url("https://img.magnific.com/premium-photo/alarm-clocks-dry-leaves-brown-background-space-text_495423-111061.jpg?semt=ais_hybrid&w=740&q=80") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.submit-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.submit-hero-content {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.submit-hero-content p {
+  letter-spacing: 3px;
+}
+
+.submit-hero-content h1 {
+  font-size: 55px;
+  margin: 20px 0;
+}
+
+.submit-hero-content span {
+  font-size: 18px;
+}
+
+/* Submit */
+
+.submit-section {
+  padding: 90px 0;
+}
+
+.submit-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.submit-info small {
+  color: #777;
+  letter-spacing: 3px;
+}
+
+.submit-info h2 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin: 20px 0;
+}
+
+.submit-info > p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.check-item {
+  display: flex;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.check-item > span {
+  background: #111;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.check-item h4 {
+  margin: 0 0 5px;
+}
+
+.check-item p {
+  color: #777;
+  margin: 0;
+}
+
+/* Form */
+
+.order-form {
+  background: #f5f5f5;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.order-form h2 {
+  margin-top: 0;
+}
+
+.order-form > p {
+  color: #777;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  width: 100%;
+  border: none;
+  background: #111;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Why */
+
+.why-timeora {
+  background: #f5f5f5;
+  padding: 80px 0;
+}
+
+.submit-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.submit-title p {
+  color: #777;
+  letter-spacing: 3px;
+}
+
+.submit-title h2 {
+  font-size: 40px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.why-card {
+  background: white;
+  padding: 35px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.why-card div {
+  font-size: 40px;
+}
+
+.why-card h3 {
+  font-size: 23px;
+}
+
+.why-card p {
+  color: #666;
+  line-height: 1.7;
+}
+
+/* Footer */
+
+.submit-footer {
+  background: #111;
+  color: white;
+  padding: 50px 0 20px;
+}
+
+.submit-footer-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 40px;
+}
+
+.submit-footer-content a {
+  display: block;
+  color: #bbb;
+  text-decoration: none;
+  margin: 8px 0;
+}
+
+.submit-footer-content p {
+  color: #bbb;
+}
+
+.submit-footer-bottom {
+  text-align: center;
+  color: #999;
+  border-top: 1px solid #333;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+  .submit-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .submit-page .nav-link {
+    margin-left: 0;
+  }
+
+  .submit-hero-content h1 {
+    font-size: 40px;
+  }
+
+  .submit-info h2 {
+    font-size: 32px;
+  }
+
+  .order-form {
+    padding: 25px;
+  }
+
+  .submit-footer-content {
+    grid-template-columns: 1fr;
+  }
+}
